@@ -194,6 +194,7 @@ li a:hover {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+    max-width: 100%
 }
 
 @media screen and (max-width: 800px) {
