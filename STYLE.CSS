@@ -1,0 +1,244 @@
+    /*Style Sheet*/
+
+
+/*Navigation Bar Style*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+/* Changes the color as you hover over the navigation bar */
+
+li a:hover {
+    background-color: lightgray;
+}
+
+
+/*Social Media */
+
+
+/*Some code provided by W3 Schools...has been modified*/
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube-play {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-file {
+    background: black;
+    color: white;
+}
+
+
+/*about page parallax effect*/
+
+.parallax-1 {
+    background-image: url("images/camera.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.name {
+    position: absolute;
+    left: 27%;
+    top: 35%;
+    width: 450px;
+    padding: 65px;
+    background-color: lightgrey;
+    opacity: 0.6;
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: 4px;
+}
+
+.about-info {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.parallax-2 {
+    background-image: url("images/pitt_parallax.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.parallax-3 {
+    background-image: url("images/city_parallax.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+
+/*EDUCATION PAGE*/
+
+
+/*education background image*/
+
+.education-background {
+    background-image: url("images/comped.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.sru-info a:link,
+.sru-info a:visited {
+    color: green;
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 32px;
+}
+
+.education-info {
+    color: black;
+    font-size: 20px;
+    text-align: none;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+/*PHOTOGRAPHY PAGE*/
+
+.photography-background {
+    background-image: url("images/paint.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    margin: 0;
+    height: 100%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.table {
+    border-style: none;
+}
+
+
+/*CONTACT PAGE*/
+
+.contact-background {
+    background-image: url("images/texture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    margin: 0;
+    height: 100%;
+}
+
+.contact-head {
+    color: black;
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+/* set as a bakground image so it's not stretched*/
+
+.contact-pic {
+    border-radius: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    height: 230px;
+    width: 230px;
+    opacity: 100%;
+}
+
+.contact-info {
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    color: black;
+    font-size: 30px;
