@@ -1,35 +1,43 @@
-    /*Style Sheet*/
+/*Style Sheet*/
 
 
-/*Navigation Bar Style*/
+/*Navigation Bar*/
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
+.pill-navbar a {
+    display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
-    font-family: "Courier New", Courier, monospace;
+    font-size: 17px;
+    font-family: "Lucida Console", Monaco, monospace;
+    border-radius: 5px;
+    max-width: 100%;
 }
 
 
-/* Changes the color as you hover over the navigation bar */
+/* Hover color*/
+
+.pill-navbar a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.pill-navbar a.active {
+    background-color: lightskyblue;
+    color: white;
+}
 
 li a:hover {
-    background-color: lightgray;
+    background-color: lightskyblue;
+    max-width: 100%;
 }
+
+
+/* Navbar container */
+
+
+/* The dropdown container */
 
 
 /*Social Media */
@@ -38,55 +46,129 @@ li a:hover {
 /*Some code provided by W3 Schools...has been modified*/
 
 .fa {
-    padding: 10px;
     font-size: 50px;
-    width: 15px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    max-width: 100%
 }
 
-.fa-facebook {
-    background: #3B5998;
+.fa-facebook-f {
     color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
+    font-size: 50px;
+    max-width: 100%;
+    text-decoration: none;
 }
 
 .fa-instagram {
-    background: #125688;
     color: white;
+    font-size: 50px;
+    max-width: 100%;
+    text-decoration: none;
 }
 
-.fa-youtube-play {
-    background: #bb0000;
+.fa-youtube {
     color: white;
+    font-size: 50px;
+    max-width: 100%;
+    text-decoration: none;
 }
 
 .fa-github {
-    background: black;
     color: white;
+    font-size: 50px;
+    max-width: 100%;
+    text-decoration: none;
 }
 
 .fa-linkedin {
-    background: #007bb5;
     color: white;
+    font-size: 50px;
+    max-width: 100%;
+    text-decoration: none;
 }
 
 .fa-file {
-    background: black;
+    color: gray;
+    font-size: 70px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.far {
+    padding: 10px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.fa-code {
     color: white;
+    font-size: 100px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.fa-quote-left {
+    color: lightskyblue;
+    font-size: 80px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.fa-quote-right {
+    color: lightskyblue;
+    font-size: 80px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.fa-envelope {
+    color: lightskyblue;
+    font-size: 110px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.fa-laptop-code {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.fa-comment-dots {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.fa-spinner {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    max-width: 100%;
 }
 
 
 /*about page parallax effect*/
 
+.footer {
+    position: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
 .parallax-1 {
-    background-image: url("images/camera.jpg");
-    height: 500px;
+    background-color: white;
+    height: 300px;
+    max-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,46 +177,80 @@ li a:hover {
 }
 
 .name {
-    position: absolute;
-    left: 27%;
-    top: 35%;
-    width: 450px;
-    padding: 65px;
-    background-color: lightgrey;
+    position: center;
+    max-width: 100%;
+    padding: 55px;
     opacity: 0.6;
     color: black;
-    font-size: 50px;
+    font-size: 80px;
     text-decoration: none;
     font-family: "Lucida Console", Monaco, monospace;
     letter-spacing: 4px;
 }
 
+.avatar {
+    position: center;
+    max-width: 100%;
+}
+
 .about-info {
     text-align: center;
-    color: black;
-    font-size: 18px;
+    color: white;
+    font-size: 35px;
     text-decoration: none;
+    max-width: 100%;
     font-family: "Courier New", Courier, monospace;
 }
 
 .parallax-2 {
-    background-image: url("images/pitt_parallax.jpg");
-    height: 500px;
+    background-color: dodgerblue;
+    height: 750px;
+    max-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 .parallax-3 {
-    background-image: url("images/city_parallax.jpg");
-    height: 500px;
+    background-color: dodgerblue;
+    height: 620px;
+    max-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.parallax-4 {
+    background-color: lightskyblue;
+    height: 620px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.parallax-5 {
+    background-color: dodgerblue;
+    height: 1500px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 
@@ -144,96 +260,80 @@ li a:hover {
 /*education background image*/
 
 .education-background {
-    background-image: url("images/comped.jpg");
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    max-width: 100%;
 }
 
 .sru-info a:link,
 .sru-info a:visited {
-    color: green;
+    color: grey;
     display: block;
-    text-align: left;
-    text-decoration: underline;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 60px;
+    max-width: 100%;
+}
+
+.major-minor {
+    color: lightskyblue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 25px;
+    max-width: 100%;
 }
 
 .education-info {
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
     text-align: none;
     font-family: "Courier New", Courier, monospace;
-}
-
-
-/*PHOTOGRAPHY PAGE*/
-
-.photography-background {
-    background-image: url("images/paint.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    margin: 0;
-    height: 100%;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-    max-width: 100%
-}
-
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
     max-width: 100%;
-  }
+}
+
+.education-info2 {
+    color: white;
+    font-size: 25px;
+    text-align: none;
+    font-family: "Courier New", Courier, monospace;
+    max-width: 100%;
+}
+
+.resume-doc {
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+    max-width: 100%;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 
 /*CONTACT PAGE*/
 
 .contact-background {
-    background-image: url("images/texture.jpg");
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
     margin: 0;
     height: 100%;
+    max-width: 100%;
 }
 
 .contact-head {
-    color: black;
-    text-decoration: underline;
-    font-size: 40px;
+    color: gray;
+    text-decoration: none;
+    font-size: 55px;
     text-align: center;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Lucida Console", Monaco, monospace;
+    max-width: 100%
 }
-
-
-/* set as a bakground image so it's not stretched*/
 
 .contact-pic {
     border-radius: 55%;
@@ -241,14 +341,134 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
-    height: 230px;
-    width: 230px;
+    height: 250px;
+    width: 250px;
+    max-width: 100%;
     opacity: 100%;
 }
 
 .contact-info {
     text-decoration: none;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Lucida Console", Monaco, monospace;
     text-align: center;
-    color: black;
-    font-size: 30px;
+    color: gray;
+    font-size: 35px;
+    max-width: 100%;
+}
+
+.envelope {
+    text-align: center;
+    max-width: 100%;
+}
+
+.social-contact {
+    text-align: center;
+    max-width: 100%;
+}
+
+
+/*FUN PAGE*/
+
+.fun-background {
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    margin: 0;
+    height: 100%;
+    max-width: 100%;
+}
+
+.fun-title {
+    color: grey;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 60px;
+    max-width: 100%;
+}
+
+.progress {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 35px;
+    max-width: 100%;
+}
+
+.zed-title {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 40px;
+    max-width: 100%;
+}
+
+.zed-info {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    max-width: 100%;
+}
+
+
+}
+.row {
+    margin: 8px -16px;
+    max-width: 100%;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row>.column {
+    padding: 8px;
+    max-width: 100%;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    max-width: 100%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 100%;
+}
+
+/* Content */
+.content {
+    background-color: dodgerblue;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+        max-width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        max-width: 100%;
+    }
+}
