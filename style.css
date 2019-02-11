@@ -26,6 +26,7 @@
 .pill-navbar a.active {
     background-color: lightskyblue;
     color: white;
+    max-width:100%;
 }
 
 li a:hover {
@@ -34,16 +35,9 @@ li a:hover {
 }
 
 
-/* Navbar container */
-
-
-/* The dropdown container */
-
-
 /*Social Media */
-
-
-/*Some code provided by W3 Schools...has been modified*/
+/*
+/*Some code provided by W3 Schools & Font Awesome*/
 
 .fa {
     font-size: 50px;
@@ -257,8 +251,6 @@ li a:hover {
 /*EDUCATION PAGE*/
 
 
-/*education background image*/
-
 .education-background {
     background-color: white;
     background-position: center;
@@ -416,59 +408,4 @@ li a:hover {
     text-align: center;
     font-family: "Courier New", Courier, monospace;
     max-width: 100%;
-}
-
-
-}
-.row {
-    margin: 8px -16px;
-    max-width: 100%;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row>.column {
-    padding: 8px;
-    max-width: 100%;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-    max-width: 100%;
-}
-
-/* Clear floats after rows */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    max-width: 100%;
-}
-
-/* Content */
-.content {
-    background-color: dodgerblue;
-    font-family: "Lucida Console", Monaco, monospace;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    max-width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
-        max-width: 100%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        max-width: 100%;
-    }
 }
