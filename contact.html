@@ -9,6 +9,7 @@
     <link rel="icon" type="image/avatar.png" href="images/avatar.png">
 
     <!--Basic style sheet (nav) -->
+    <!--Applies to every page-->
     <link rel="stylesheet" href="basic_style.css">
 
     <!--Viewport adjustment for mobile phones-->
@@ -23,7 +24,33 @@
 </head>
 
 <body>
-    
+
+    <!--***** Navbar *****-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+        <a class="navbar-brand" href="index.html">
+          <img src="imgs/avatar.png" width="50" height="50" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" data-target=".navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+            </li>
+            <ul class="navbar-nav">
+            <li class="nav-item float-right">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+
 </body>
 
 </html>
