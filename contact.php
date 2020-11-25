@@ -48,7 +48,7 @@
             </li>
             <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+              <a class="nav-link" href="contact.php">CONTACT</a>
             </li>
             </ul>
         </div>
@@ -56,10 +56,24 @@
 
 
     <!--Contact PHP Form-->
-    <?php
-      echo("hello world");
-    ?>
+    <form class="form" action="contact.php" method="POST">
 
+      <label for="contact_name">Name</label>
+      <input type="text" id="contact_name" name="contact_name"> 
+      <br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="this@example.com">
+      <br>
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject"> 
+      <br>
+
+      <input type="submit">
+      
+    </form>
+
+    <?php
+    ?>
 
 </body>
 
