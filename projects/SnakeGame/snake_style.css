@@ -1,0 +1,13 @@
+/*Snake Stylesheet*/
+h1 {
+    text-align: center;
+}
+
+canvas {
+    position: relative;
+    display:block;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: black;
+}

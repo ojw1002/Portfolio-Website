@@ -41,14 +41,14 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME<span class="sr-only"></span></a>
+              <a class="nav-link" href="index.html">home<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+              <a class="nav-link" href="portfolio.html">portfolio</a>
             </li>
             <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="contact.php">CONTACT</a>
+              <a class="nav-link" href="contact.php">contact</a>
             </li>
             </ul>
         </div>
