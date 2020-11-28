@@ -1,0 +1,38 @@
+/*Cookie color styling*/
+
+*, *::after,*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background: white !important;
+}
+
+.container {
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h1 {
+    font-family: "Rowdies";
+}
+
+.fa-cookie-bite {
+    font-size: 300px;
+}
+
+#colorTxt {
+    color:white;
+}
+
+h5 {
+    cursor: pointer;
+}
+
+.fa-clipboard  {
+    font-size: 2rem;
+}

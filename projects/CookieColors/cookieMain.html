@@ -1,0 +1,60 @@
+<!--Random Cookie Colors RGB Picker-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Colors</title>
+
+    <!--CUSTOM STYLE SHEET-->
+    <link rel="stylesheet" href="cookie_style.css">
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/575868ac71.js" crossorigin="anonymous"></script>
+
+    <!--GOOGLE FONTS <h1> TEXT-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rowdies">
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+   
+<body>
+    
+
+    <div class="container">
+        <div class="grid">
+
+            <!--Cookie icon-->
+            <div class="row justify-content-center pb-2">
+                <i class="fas fa-cookie-bite" id="cookie"></i>
+            </div>
+
+            <!--Textarea to show (rgb) coloring code-->
+            <div class="row justify-content-center pb-5">
+                <textarea readonly id="colorTxt" rows="1" style="text-align: center;"></textarea>&nbsp;
+                <i class="fas fa-clipboard" type="button" id="copyTxt" value="Copy Color" onclick="copyColor()" title="Copy Color"></i>
+            </div>
+
+            <!--Title-->
+            <div class="row justify-content-center pb-3">
+                <h1>Cookie Colors</h1>
+            </div>
+            
+            <!--Random Color-->
+            <div class="row justify-content-center pb-3">
+                <button class="btn btn-dark" id="change" onclick="changeCookie()" title="Change Cookie Color">Random Cookie Color</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Copyright-->
+    <div class="footer-copyright text-center py-3">© 2020 Liv Warner</div>
+    
+    
+    <!--Script-->
+    <script type="text/javascript" src="cookie.js"></script>
+</body>
+</html>
