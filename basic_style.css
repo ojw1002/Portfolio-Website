@@ -28,3 +28,41 @@ body {
     font-family: 'Permanent Marker';
     font-size: 22px;
 }
+
+/*Footer*/
+
+.foot-title {
+    color:white;
+}
+  .foot-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+  }
+
+  /*Footer list*/
+  #footer-list {
+      list-style: none;
+      padding-left: 0; 
+  }
+
+  /*Social*/
+  #footer-social-list {
+    list-style: none;
+    padding-left: 0;
+
+  }
+
+  .foot-social {
+    padding: 0 1.875rem 1.25rem;
+  }
+
+  #footer-social-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25rem;
+  }
+  
+  #footer-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+  }

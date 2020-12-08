@@ -9,7 +9,9 @@
     <link rel="icon" type="image/avatar.png" href="images/avatar.png">
 
     <!--Basic style sheet (nav)-->
+    <!--Applies to every page-->
     <link rel="stylesheet" href="basic_style.css">
+    <link rel="stylesheet" href="home.css">
 
     <!--Meta info tags only for index pg-->
     <meta http-equiv="content-language" content="en"/>
@@ -25,6 +27,8 @@
     <!--Viewport adjustment for mobile phones-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Font Awesome Script-->
+    <script src="https://kit.fontawesome.com/575868ac71.js" crossorigin="anonymous"></script>
 
     <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
@@ -40,7 +44,7 @@
 
 <body>
 
-    <!--***** Navbar *****-->
+    <!--Navbar-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #9933CC">
       <a class="navbar-brand" href="index.html">
         <h1 id="name">Olivia Warner</h1>
@@ -68,22 +72,30 @@
         </div>
     </nav>
 
-        <div class="name" align="center">
-            <i class="fas fa-quote-left"></i> olivia warner <i class="fas fa-quote-right"></i>
-        </div>
+      <!--Home Title-->
+        <div class="home_title">
+           <h1 id="name_title">Olivia Warner</h1>
+    
+        <br>
+    
+        <!--Arrow indicating to scroll down-->
+        <!--Onclick goes to next div below immediately-->
+        <a class="fas fa-arrow-alt-circle-down" style="color: #9933CC;" href="index.html#avatar" role="button"></a>
+      </div>
 
-    </div>
-    <div class="avatar" alt="avatar" align="center" height="100" max-width="100%">
-        <img src="images/avatar.png">
+
+
+
+    <div class="avatar" id="avatar" alt="avatar" height="100" max-width="100%">
+        <img src="imgs/index/liv_avatar.png" class="img-fluid">
     </div>
 
-        <i class="fas fa-code"></i>
 
         <div class="about-info">
             <p>
                 <strong>H e l l o &nbsp W o r l d!</strong>
                 <br><br> My name is Olivia Warner
-                <br> I am from Pittsburgh, PA
+                <br> I am from Pittsburgh, Pennsylvania
                 <br>I am an aspiring developer & designer
                 <br>
                 <br>
