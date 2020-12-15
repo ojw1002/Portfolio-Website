@@ -1,5 +1,6 @@
+/*Portrait picture element*/
 #about_pic {
     height:"500px";
     width:"500px";
-    border-radius:;
+    border-radius:0;
 }

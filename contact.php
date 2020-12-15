@@ -11,6 +11,7 @@
     <!--Basic style sheet (nav) -->
     <!--Applies to every page-->
     <link rel="stylesheet" href="basic_style.css">
+    <link rel="stylesheet" href="contact.css">
 
     <!--Viewport adjustment for mobile phones-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,26 +58,29 @@
         </div>
     </nav>
 
-
-    <!--Contact PHP Form-->
-    <form class="form" action="contact.php" method="POST">
-
-      <label for="contact_name">Name</label>
-      <input type="text" id="contact_name" name="contact_name"> 
-      <br>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="this@example.com">
-      <br>
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject"> 
-      <br>
-
-      <input type="submit">
-      
-    </form>
+    <!--Contact form-->
+    <div class="contact">
+      <h1>Say Hi!</h1>
+      <form class="form-floating" action="contact.php" method="POST">
+        <label for="fname" id="label">First Name: </label><br>
+        <input type="text" class="form-control" name="name" placeholder="First Name" required>
+        <br>
+        <label for="lname" id="label">Last Name: </label><br>
+        <input type="text" class="form-control" name="name" placeholder="Last Name" required>
+        <br>
+        <label for="email" id="label">Email: </label><br>
+        <input type="email" class="form-control" name="email" placeholder="example@example.com" required>
+        <br>
+        <label for="msg" id="label">Message: </label><br>
+        <textarea class="form-control" name="msg"rows="6" maxlength="3000" placeholder="Write a message" required></textarea>
+        <br>
+        <button type="submit" class="btn btn-outline-primary" id="sbtn">Send</button>
+      </form>
+    </div>
 
     <?php
     ?>
+
 
 </body>
 
