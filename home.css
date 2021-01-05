@@ -21,7 +21,7 @@ body {
 }
 
 /*arrow animation*/
-.fas {
+.fa-arrow-alt-circle-down {
     animation: bounce 1s infinite alternate;
     font-size: 5rem;
     text-decoration:none;
@@ -43,6 +43,53 @@ body {
      transform: translateY(-15px);
     }
   }
+
+
+
+.top {
+    width: 600px;
+    box-sizing: border-box;
+    height: 30px;
+    background-color: lightgray;
+    margin: 0 auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.menu {
+    position: relative;
+    top: 4px;
+    left: 6px;
+    display: inline-block;
+}
+
+#close {
+    color:red;
+}
+
+.info {
+    background-color:black;
+    box-sizing: border-box;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cursor {
+    color:white;
+}
+
+#blink {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    from, to { opacity: 0; }
+    
+    50% {opacity: 1;}
+}
 
 .avatar {
     text-align: center;
