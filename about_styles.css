@@ -1,6 +1,10 @@
 /*Portrait picture element*/
 #about_pic {
-    height:"500px";
-    width:"500px";
-    border-radius:0;
+    height:400px;
+    width:400px;
+    border-radius:4px;
+}
+
+.fab{
+    font-size: 60px;
 }
