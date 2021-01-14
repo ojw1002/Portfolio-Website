@@ -72,7 +72,7 @@
         <input type="email" class="form-control" name="email" placeholder="example@example.com" required>
         <br>
         <label for="msg" id="label">Message: </label><br>
-        <textarea class="form-control" name="msg"rows="6" maxlength="3000" placeholder="Write a message" required></textarea>
+        <textarea class="form-control" name="msg" rows="6" maxlength="3000" placeholder="Write a message" required></textarea>
         <br>
         <button type="submit" class="btn btn-outline-primary" id="sbtn">Send</button>
       </form>
