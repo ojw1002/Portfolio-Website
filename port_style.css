@@ -28,16 +28,29 @@
   /*icon colors for viewing and github*/
   .fab  {
     color: darkviolet;
-    font-size: 2rem;
+    font-size: 40px;
   }
 
   .fas {
     color:black;
-    font-size: 2rem;
+    font-size: 40px;
   }
 
   .far {
     color:black;
     font-size: 2rem;
   }
-  
+
+  .card-body {
+    text-align:center;
+    font-weight:600;
+  }
+
+  #port-img:hover {
+    transform: scale(1.1);
+  }
+
+
+  .all-card {
+    padding: 20px;
+  }

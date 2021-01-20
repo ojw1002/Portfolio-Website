@@ -13,6 +13,11 @@
     font-size: 40px;
 }
 
+#about-social:hover{
+    transform: scale(1.1);
+}
+
+
 .card {
     padding-top: 15px;
 }

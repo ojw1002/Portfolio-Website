@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>PORTFOLIO</title>
+    <title>PORTFOLIO | Olivia Warner</title>
     <link rel="icon" type="image/avatar.png" href="images/avatar.png">
 
     <!--Basic style sheet (nav)-->
@@ -62,7 +62,7 @@
             </div>
         </nav>
 
-        <br>
+        
 
         <!-- *** Title with Filters ***-->
         <div class="jumbotron" style="text-align:center">
@@ -82,60 +82,107 @@
     
 
 
-              <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-                <div class="bg-success me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden filter appdev">
-                  <div class="my-3 py-3">
-                    <h2 class="display-5">Task Manager Android App</h2>
-                    <p class="lead">Android App that accesses rooted os info.</p>
-                    <a href="#"  title="Go To GitHub Project"><i class="fab fa-github"></i></a>
-                  </div>
-                  <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                    <img src="imgs/portfolio/taskmanager_logo.png" class="img-fluid" alt="Task Manager Logo">
-                  </div>
+          <div class="container">
+            <div class="row">
+              <div class="card col-md-3">
+                <img src="imgs/portfolio/taskmanager_logo.png" class="card-img-top" src="" alt="Task Manager Logo" id="port-img" data-target="#taskModal" data-toggle="modal">
+                <div class="card-body">
+                  <h5 class="card-title">Task Manager Android App</h5>
+                  <a href="#"  title="Go To GitHub Project"><i class="fab fa-github"></i></a>
                 </div>
-                <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-light text-center overflow-hidden filter webdev">
-                  <div class="my-3 p-3"> 
-                    <h2 class="display-5">Intense Tennis Camps</h2>
-                    <p class="lead">Website redesigned and developed for the Intense Tennis Camps.</p>
-                    <a href="https://www.intensetenniscamps.com" target="_blank" title="View Website"><i class="far fa-eye"></i></a>
-                  <!--GitHub-->
-                  <a href="https://github.com/ojw1002/Intense-Tennis-Camps" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
-                  </div>
-                  <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                    <img src="imgs/portfolio/intense_logo.png" class="img-fluid" alt="Intense Tennis Camps Logo">
+              </div>
+              <div class="modal fade" id="taskModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Task Manager Android App</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Android App that accesses rooted os info</p>
+                    </div>
                   </div>
                 </div>
               </div>
-               
-  
 
 
-
-              <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-                <div class="bg-warning me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden filter js">
-                  <div class="my-3 py-3">
-                    <h2 class="display-5">Snake Game</h2>
-                    <p class="lead">Classic Snake Game created with HTML, CSS, and JavaScript.</p>
-                    <a href="projects/SnakeGame/snake_game.html" target="_blank" title="Play Game"><i class="fas fa-play-circle"></i></a>
-                    <!--GitHub-->
-                    <a href="https://github.com/ojw1002/Snake-Game" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
-                  </div>
-                  <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                    <img src="imgs/portfolio/snakegame_logo.png" class="img-fluid"alt="Snake Game Logo">
+              <div class="card col-md-3">
+                <img src="imgs/portfolio/intense_logo.png" class="card-img-top" src="" alt="Intense Tennis Camps Logo"  id="port-img" data-target="#campModal" data-toggle="modal">
+                <div class="card-body">
+                  <h5 class="card-title">Intense Tennis Camps Website</h5>
+                  <a href="https://www.intensetenniscamps.com" target="_blank" title="View Website"><i class="far fa-eye"></i></a>
+                  <a href="https://github.com/ojw1002/Intense-Tennis-Camps" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <div class="modal fade" id="campModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Intense Tennis Camps Website</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Website redesigned and developed for the Intense Tennis Camps</p>
+                    </div>
                   </div>
                 </div>
-                <div class="bg-warning me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden filter js">
-                  <div class="my-3 p-3">
-                    <h2 class="display-5">Cookie Colors</h2>
-                    <p class="lead">RGB random color picker with copy clipboard option.</p>
-                    <a href="projects/CookieColors/cookieMain.html" target="_blank" title="Pick a Color"><i class="fas fa-play-circle"></i></a>
-                    <!--GitHub-->
+              </div>
+
+              
+              <div class="card col-md-3">
+                <img src="imgs/portfolio/snakegame_logo.png" class="card-img-top" src="" alt="Snake Game Logo"  id="port-img" data-target="#snakeModal" data-toggle="modal">
+                <div class="card-body">
+                  <h5 class="card-title">Snake Game</h5>
+                  <a href="projects/SnakeGame/snake_game.html" target="_blank" title="Play Game"><i class="fas fa-play-circle"></i></a>
+                  <a href="https://github.com/ojw1002/Snake-Game" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+              <div class="modal fade" id="snakeModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Snake Game</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Classic Snake Game created with HTML, CSS, and JavaScript</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-md-3">
+                <img src="imgs/portfolio/cookiecolors_logo.png" class="card-img-top" src="" alt="Cookie Colors Logo"  id="port-img" data-target="#cookieModal" data-toggle="modal">
+                <div class="card-body">
+                  <h5 class="card-title">Cookie Colors</h5>
+    
+                  <a href="projects/CookieColors/cookieMain.html" target="_blank" title="Pick a Color"><i class="fas fa-play-circle"></i></a>
                     <a href="https://github.com/ojw1002/Cookie-Colors" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
-                  </div>
-                  <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                    <img src="imgs/portfolio/cookiecolors_logo.png" class="img-fluid" alt="Cookie Colors Logo">
+                </div>
+              </div>
+              <div class="modal fade" id="cookieModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Cookie Colors</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>RGB random color picker with copy clipboard option</p>
+                    </div>
                   </div>
                 </div>
+              </div>
+
+              </div>
               </div>
               
 
@@ -162,10 +209,10 @@
     <div class="col-lg-6 col-sm-12">
     <div class="foot-main-item">  
         <ul id="footer-social-list">
-          <li class="github"><a title="Olivia Warner Github" href="#" target="_blank"><i class="fab fa-facebook-f" style="color:white"></i></a></td>
-          <li class="linkedin"><a title="Olivia Warner LinkedIn" href="#" target="_blank"><i class="fab fa-instagram" style="color:white"></i></a></td>
-          <li class=""><a title="Andy Findlay Twitter" href="https://twitter.com/AF10S" target="_blank"><i class="fab fa-twitter" style="color:white"></i></a></td>
-          <li class=""><a title="Intense Tennis Camp Flikr" href="https://www.flickr.com/photos/intensetenniscamps/" target="_blank"><i class="fab fa-flickr"style="color:white"></i></a></td>
+            <li class="linkedin"><a title="Olivia Warner LinkedIn" href="https://www.linkedin.com/in/olivia--warner/" target="_blank"><i class="fab fa-linkedin" style="color:white"></i></li>
+            <li class="github"><a title="Olivia Warner Github" href="https://github.com/oliviawarner" target="_blank"><i class="fab fa-github-square" style="color:white"></i></li>
+            <li class="facebook"><a title="Olivia Warner Facebook" href="https://www.facebook.com/olivia.warner.54/" target="_blank"><i class="fab fa-facebook-square" style="color:white"></i></li>
+            <li class="youtube"><a title="Olivia Warner Youtube" href="https://www.youtube.com/channel/UCHGgkmlgNKDgD93zCp_JgJA" target="_blank"><i class="fab fa-youtube-square" style="color:white"></i></li> 
         </ul>
       </div>
     </div>
@@ -173,7 +220,13 @@
 </footer>
 
   <!--Filter Portfolio Projects-->
-  <script src="filter.js"></script>    
+  <script src="filter.js"></script> 
+  <!--Modals-->
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+  </script>   
   
 </body>
 
