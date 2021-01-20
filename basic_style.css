@@ -1,5 +1,8 @@
 /*Basic style sheet */
 /*Applies to every page*/
+html,body{
+  height:100%;
+}
 
 html {
     font: 16px/1.4 'Open Sans', arial, sans-serif;

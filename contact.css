@@ -4,8 +4,6 @@ html {
     height:100%;
 }
 body {
-    /*Background gradient from: https://cssgradient.io/ */
-    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
     display: block;
     align-items: center;
     padding-top: 40px;

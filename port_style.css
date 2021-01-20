@@ -48,9 +48,5 @@
 
   #port-img:hover {
     transform: scale(1.1);
-  }
-
-
-  .all-card {
-    padding: 20px;
+    cursor:pointer;
   }
