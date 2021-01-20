@@ -50,3 +50,19 @@
     transform: scale(1.1);
     cursor:pointer;
   }
+
+  #footer-linkedin:hover{
+    transform:scale(1.1);
+  }
+
+  #footer-git:hover{
+    transform:scale(1.1);
+  }
+
+  #footer-fb:hover{
+    transform:scale(1.1);
+  }
+
+  #footer-yt:hover{
+    transform:scale(1.1);
+  }
