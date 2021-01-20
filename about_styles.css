@@ -17,7 +17,10 @@
     transform: scale(1.1);
 }
 
-
+#about-head {
+    font-family: 'Permanent Marker';
+    letter-spacing: 5px;
+}
 .card {
     padding-top: 15px;
 }

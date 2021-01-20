@@ -67,7 +67,7 @@
         <!-- *** Title with Filters ***-->
         <div class="jumbotron" style="text-align:center">
             <div class="container">
-                <h1 class="display-3"><b>PORTFOLIO</b></h1>
+                <h1 class="display-3" id="port-head" style="font-size:6vw;"><b>PORTFOLIO</b></h1>
                 <p class="lead text-muted">Choose a card below to view a project</p>
                       
                 <!--Filter Buttons-->
@@ -83,14 +83,54 @@
 
 
           <div class="container">
+
             <div class="row">
-              <div class="card col-md-3">
+              <div class="card col-md-3 filter appdev">
                 <img src="imgs/portfolio/taskmanager_logo.png" class="card-img-top" src="" alt="Task Manager Logo" id="port-img" data-target="#taskModal" data-toggle="modal">
                 <div class="card-body">
                   <h5 class="card-title">Task Manager Android App</h5>
                   <a href="#"  title="Go To GitHub Project"><i class="fab fa-github"></i></a>
                 </div>
               </div>
+
+              <div class="card col-md-3 filter webdev">
+                <img src="imgs/portfolio/intense_logo.png" class="card-img-top" src="" alt="Intense Tennis Camps Logo"  id="port-img" data-target="#campModal" data-toggle="modal">
+                <div class="card-body">
+                  <h5 class="card-title">Intense Tennis Camps Website</h5>
+                  <a href="https://www.intensetenniscamps.com" target="_blank" title="View Website"><i class="far fa-eye"></i></a>
+                  <a href="https://github.com/ojw1002/Intense-Tennis-Camps" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="row">
+              
+              <div class="card col-md-3 filter js">
+                <img src="imgs/portfolio/snakegame_logo.png" class="card-img-top" src="" alt="Snake Game Logo"  id="port-img" data-target="#snakeModal" data-toggle="modal">
+                <div class="card-body">
+                  <h5 class="card-title">Snake Game</h5>
+                  <a href="projects/SnakeGame/snake_game.html" target="_blank" title="Play Game"><i class="fas fa-play-circle"></i></a>
+                  <a href="https://github.com/ojw1002/Snake-Game" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+
+           
+
+              <div class="card col-md-3 filter js">
+                <img src="imgs/portfolio/cookiecolors_logo.png" class="card-img-top" src="" alt="Cookie Colors Logo"  id="port-img" data-target="#cookieModal" data-toggle="modal">
+                <div class="card-body">
+                  <h5 class="card-title">Cookie Colors</h5>
+                  <a href="projects/CookieColors/cookieMain.html" target="_blank" title="Pick a Color"><i class="fas fa-play-circle"></i></a>
+                  <a href="https://github.com/ojw1002/Cookie-Colors" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+
+
               <div class="modal fade" id="taskModal" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -108,14 +148,6 @@
               </div>
 
 
-              <div class="card col-md-3">
-                <img src="imgs/portfolio/intense_logo.png" class="card-img-top" src="" alt="Intense Tennis Camps Logo"  id="port-img" data-target="#campModal" data-toggle="modal">
-                <div class="card-body">
-                  <h5 class="card-title">Intense Tennis Camps Website</h5>
-                  <a href="https://www.intensetenniscamps.com" target="_blank" title="View Website"><i class="far fa-eye"></i></a>
-                  <a href="https://github.com/ojw1002/Intense-Tennis-Camps" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
-                </div>
-              </div>
               <div class="modal fade" id="campModal" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -131,18 +163,7 @@
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="row">
-              
-              <div class="card col-md-3">
-                <img src="imgs/portfolio/snakegame_logo.png" class="card-img-top" src="" alt="Snake Game Logo"  id="port-img" data-target="#snakeModal" data-toggle="modal">
-                <div class="card-body">
-                  <h5 class="card-title">Snake Game</h5>
-                  <a href="projects/SnakeGame/snake_game.html" target="_blank" title="Play Game"><i class="fas fa-play-circle"></i></a>
-                  <a href="https://github.com/ojw1002/Snake-Game" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
-                </div>
-              </div>
               <div class="modal fade" id="snakeModal" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -159,15 +180,6 @@
                 </div>
               </div>
 
-              <div class="card col-md-3">
-                <img src="imgs/portfolio/cookiecolors_logo.png" class="card-img-top" src="" alt="Cookie Colors Logo"  id="port-img" data-target="#cookieModal" data-toggle="modal">
-                <div class="card-body">
-                  <h5 class="card-title">Cookie Colors</h5>
-    
-                  <a href="projects/CookieColors/cookieMain.html" target="_blank" title="Pick a Color"><i class="fas fa-play-circle"></i></a>
-                    <a href="https://github.com/ojw1002/Cookie-Colors" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
-                </div>
-              </div>
               <div class="modal fade" id="cookieModal" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -182,9 +194,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-
-              </div>
               </div>
 
 <br>

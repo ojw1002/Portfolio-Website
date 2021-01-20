@@ -1,27 +1,47 @@
-/*Background color*/
-
 html {
     height:100%;
 }
-body {
-    display: block;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height:100%;
+
+.form-head{
+    color:white;
 }
 
-.contact {
-    background-color: white;
-    vertical-align: middle;
-  
-    height:auto;
-    max-width: 800px;
-    padding: 30px;
+.form-container {
+    max-width: 500px;
     margin: auto;
-    border-radius: 20px;
+    padding: 30px;
+    background: #9933CC;
+    border: 10px solid #f2f2f2;
+    border-radius:20px;
 }
 
-#label {
-    text-align: left;
+.fas {
+    color:yellow;
+}
+
+#contact-social {
+    font-size:50px;
+    text-align: center;
+}
+#contact-social:hover {
+    transform:scale(1.1);
+   
+}
+
+#connect-head{
+    font-family: 'Permanent Marker';
+    letter-spacing: 1px;
+}
+.connect {
+    text-align: center;
+}
+
+#contact-pic{
+    height:250px;
+    width:250px;
+    border-radius:4px;
+}
+
+.profile {
+    text-align:center;
 }

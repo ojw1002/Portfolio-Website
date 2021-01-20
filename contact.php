@@ -16,6 +16,9 @@
     <!--Viewport adjustment for mobile phones-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+     <!--Font Awesome Script-->
+     <script src="https://kit.fontawesome.com/575868ac71.js" crossorigin="anonymous"></script>
+
 
     <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
@@ -60,7 +63,74 @@
 
     <!--Contact form-->
 
+    <div class="row">
+
+    <div class="col">
+    <div class="form-container">
+      
+    <h2 class="form-head">Say Hi! <i class="fas fa-smile-beam"></i></h2>
+
+    <form class="contact" action="contact.php" method="POST"><br>
+
+      <div class="form-floating">
+      <input type="text" class="form-control" name="name" placeholder="Full Name"><br>
+      </div>
+
+      <div class="form-floating">
+      <input type="text" class="form-control" name="email" placeholder="E-mail"><br>
+      </div>
+
+      <div class="form-floating">
+      <input type="text" class="form-control" name="subject" placeholder="Subject"><br>
+      </div>
+
+      <div class="form-floating">
+      <textarea class="form-control" name="msg" placeholder="Message" rows="5"></textarea><br>
+      </div>
+
+      <button type="submit" name="submit" class="btn btn-dark">Send</button>
+    </form>
+</div>
+  </div>
+
+  <div class="col">
+    <br><br>
+  <h2 class="featurette-heading" id="connect-head" style="text-align: center;">CONNECT WITH ME</h2>
+  <br>
+
+    <div class="profile">
+      <img class="mr-3" src="imgs/contact/OliviaWarner.jpeg" alt="Olivia Warner" id="contact-pic" class="img-fluid">
+    </div>
+      
+  <br><br>
+  <div class="connect">
+    <a class="linkedin"><a title="Olivia Warner LinkedIn" href="https://www.linkedin.com/in/olivia--warner/" target="_blank"><i class="fab fa-linkedin" style="color:black" id="contact-social"></i></a>
+    <a class="github"><a title="Olivia Warner Github" href="https://github.com/oliviawarner" target="_blank"><i class="fab fa-github-square" style="color:black" id="contact-social"></i></a>
+    <a class="facebook"><a title="Olivia Warner Facebook" href="https://www.facebook.com/olivia.warner.54/" target="_blank"><i class="fab fa-facebook-square" style="color:black" id="contact-social"></i></a>
+   <a class="youtube"><a title="Olivia Warner Youtube" href="https://www.youtube.com/channel/UCHGgkmlgNKDgD93zCp_JgJA" target="_blank"><i class="fab fa-youtube-square" style="color:black" id="contact-social"></i></a>
+  </div>
+  
+</div>
+</div>
 
 
-</body>
+
+              <?php
+                if(isset($_POST['submit'])) {
+                  $name = $_POST['name'];
+                  $email = $_POST['email'];
+                  $subject = $_POST['subject'];
+                  $msg = $_POST['msg'];
+
+                  $mailTo = "ojw1002@sru.edu";
+                  $headers = "From: ".$email;
+                  $txt = "You have received an e-mail from".$name."\n\n".$msg;
+
+
+                  mail($mailTo,$subject,$txt,$headers);
+                  header("Location: index.html?mailsent");
+                }
+                ?>
+
+  </body>
 </html>

@@ -24,6 +24,11 @@
     max-width: 40rem;
   }
 
+  #port-head {
+    font-family: 'Permanent Marker';
+    letter-spacing: 5px;
+    
+  }
 
   /*icon colors for viewing and github*/
   .fab  {
@@ -41,6 +46,10 @@
     font-size: 2rem;
   }
 
+  .card {
+    padding:15px;
+  }
+  
   .card-body {
     text-align:center;
     font-weight:600;
