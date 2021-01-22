@@ -1,6 +1,5 @@
-//Filters Portfolio Project by their data filter attribute
-//These attributes are defined within the html portfolio doc
-//JQuery
+//filters for portfolio by their data filter attribute
+//these attributes are defined within the portfolio.html
 
 $(document).ready(function () {
 

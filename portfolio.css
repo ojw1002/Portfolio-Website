@@ -36,17 +36,7 @@ body {
 }
 
 /*icon colors for viewing and github*/
-.fab {
-  color: black;
-  font-size: 30px;
-}
-
-.fas {
-  color: black;
-  font-size: 30px;
-}
-
-.far {
+.fab,.fas,.far {
   color: black;
   font-size: 30px;
 }
@@ -59,6 +49,7 @@ body {
 #col-space {
   padding: 10px;
 }
+
 .proj-img {
   text-align: center;
 }
@@ -82,34 +73,3 @@ body {
   transform: scale(1.1);
 }
 
-#footer-linkedin:hover {
-  transform: scale(1.1);
-}
-
-#footer-git:hover {
-  transform: scale(1.1);
-}
-
-#footer-fb:hover {
-  transform: scale(1.1);
-}
-
-#footer-yt:hover {
-  transform: scale(1.1);
-}
-
-#footer-linkedin {
-  font-size: 40px;
-}
-
-#footer-git {
-  font-size: 40px;
-}
-
-#footer-fb {
-  font-size: 40px;
-}
-
-#footer-yt {
-  font-size: 40px;
-}

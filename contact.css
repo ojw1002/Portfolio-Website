@@ -25,6 +25,7 @@ body {
   text-align: center;
   letter-spacing: 10px;
 }
+
 #contact-social:hover {
   transform: scale(1.1);
 }

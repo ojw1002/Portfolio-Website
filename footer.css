@@ -1,0 +1,9 @@
+#footer-git:hover,#footer-linkedin:hover,#footer-fb:hover,#footer-yt:hover {
+    transform: scale(1.1);
+}
+
+#footer-git,#footer-linkedin,#footer-fb,#footer-yt {
+    font-size: 40px;
+    color:white;
+}
+  

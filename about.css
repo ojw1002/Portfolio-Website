@@ -4,12 +4,7 @@
   border-radius: 4px;
 }
 
-
-.fab {
-  font-size: 40px;
-}
-
-.fas {
+.fab,.fas {
   font-size: 40px;
 }
 
@@ -25,6 +20,7 @@
   font-family: "Permanent Marker";
   letter-spacing: 5px;
 }
+
 .card {
   padding-top: 15px;
 }
@@ -33,20 +29,4 @@ iframe {
   max-width: 900px;
   width: 100%;
   height: 450px;
-}
-
-#footer-linkedin:hover {
-  transform: scale(1.1);
-}
-
-#footer-git:hover {
-  transform: scale(1.1);
-}
-
-#footer-fb:hover {
-  transform: scale(1.1);
-}
-
-#footer-yt:hover {
-  transform: scale(1.1);
 }
