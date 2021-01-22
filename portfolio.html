@@ -89,11 +89,11 @@
               <div class="col-md filter appdev" id="col-space">
               <div class="card shadow-lg">
                 <div class="proj-img">
-                <img src="imgs/portfolio/taskapp_logo.png" class="img-fluid" alt="Task Manager Logo" id="card-img" data-target="#taskModal" data-toggle="modal">
+                <img src="imgs/portfolio/taskapp_logo.png" class="img-fluid" alt="Task Manager Logo" id="card-img" data-toggle="modal">
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Android Task Manager</h5>
-                  <a href="https://github.com/oliviawarner/Task-Manager-Android-App"  title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                  <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#task-manager-modal">learn more</button>
                 </div>
               </div>
             </div>
@@ -102,12 +102,11 @@
               <div class="col-md filter webdev" id="col-space">
               <div class="card shadow-lg">
                 <div class="proj-img">
-                <img src="imgs/portfolio/intense_logo.png" class="img-fluid" alt="Intense Tennis Camps Logo"  id="card-img" data-target="#campModal" data-toggle="modal">
+                  <a href="https://www.intensetenniscamps.com" target="_blank" title="View Website"><img src="imgs/portfolio/intense_logo.png" class="img-fluid" alt="Intense Tennis Camps Logo"  id="card-img" data-toggle="modal"></a>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Intense Tennis Camps</h5>
-                  <a href="https://www.intensetenniscamps.com" target="_blank" title="View Website"><i class="far fa-eye"></i></a>
-                  <a href="https://github.com/ojw1002/Intense-Tennis-Camps" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                  <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#intense-modal">learn more</button>
                 </div>
               </div>
             </div>
@@ -117,12 +116,11 @@
             <div class="col-md filter js" id="col-space">
               <div class="card shadow-lg">
                 <div class="proj-img">
-                <img src="imgs/portfolio/cookie_logo.png" class="img-fluid" alt="Cookie Colors Logo"  id="card-img" data-target="#cookieModal" data-toggle="modal">
+                <a href="projects/CookieColors/cookieMain.html" target="_blank" title="Pick a Color"><img src="imgs/portfolio/cookie_logo.png" class="intense img-fluid" alt="Cookie Colors Logo"  id="card-img"></a>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Cookie Colors</h5>
-                  <a href="projects/CookieColors/cookieMain.html" target="_blank" title="Pick a Color"><i class="fas fa-play-circle"></i></a>
-                  <a href="https://github.com/ojw1002/Cookie-Colors" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                  <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#cookie-modal">learn more</button>
                 </div>
               </div>
             </div>
@@ -131,18 +129,108 @@
               <div class="col-md filter js" id="col-space">
                 <div class="card shadow-lg">
                   <div class="proj-img">
-                  <img src="imgs/portfolio/snake_logo.png" class="img-fluid" alt="Snake Game Logo"  id="card-img" data-target="#snakeModal" data-toggle="modal">
+                    <a href="projects/SnakeGame/snake_game.html" target="_blank" title="Play Game"><img src="imgs/portfolio/snake_logo.png" class="img-fluid" alt="Snake Game Logo"  id="card-img" data-toggle="modal"></a>
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Snake Game</h5>
-                    <a href="projects/SnakeGame/snake_game.html" target="_blank" title="Play Game"><i class="fas fa-play-circle"></i></a>
-                    <a href="https://github.com/ojw1002/Snake-Game" target="_blank" title="Go To GitHub Project"><i class="fab fa-github"></i></a>
+                    <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#snake-modal">learn more</button>
                   </div>
                 </div>
                 </div>
           
             </div>
           </div>
+
+
+
+
+          <div class="modal fade" id="task-manager-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title lead">Android Task Manager</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  The Android Task Manager Application gathers rooted operating system info. It focuses on the
+                  details, services & CPU utilization. Linux commands were executed in Java to
+                  gather the info.
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="https://github.com/oliviawarner/Task-Manager-Android-App"  title="Go To GitHub Project"><i class="fab fa-github" id="modal-social"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="modal fade" id="intense-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title lead">Intense Tennis Camps</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  The Intense Tennis Camps was a website redesigned and developed from scratch. This web service
+                  was created using HTML, CSS, Javascript, JQuery & Bootstrap. It is hosted through Github pages & GoDaddy.  
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="https://www.intensetenniscamps.com" target="_blank" title="View Website"><i class="far fa-eye" id="modal-social"></i></a>
+                  <a href="https://github.com/ojw1002/Intense-Tennis-Camps" target="_blank" title="Go To GitHub Project"><i class="fab fa-github" id="modal-social"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="cookie-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title lead">Cookie Colors Color Picker</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Cookie Colors was a small fun web app that simulates a random RGB color. It allows you
+                  copy that RGB color code into your clipboard for direct pasting. It was created in HTML,
+                  CSS & Javascript.
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="projects/CookieColors/cookieMain.html" target="_blank" title="Pick a Color"><i class="far fa-eye" id="modal-social"></i></a>
+                  <a href="https://github.com/ojw1002/Cookie-Colors" target="_blank" title="Go To GitHub Project"><i class="fab fa-github" id="modal-social"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="modal fade" id="snake-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title lead">Snake Javascript Game</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  The Snake Javascript was created based on the classic snake block game. This web app was
+                  created to improve in Javascript animation. It was created in HTML, CSS & Javascript.
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <a href="projects/SnakeGame/snake_game.html" target="_blank" title="Play Game"><i class="far fa-eye" id="modal-social"></i></a>
+                  <a href="https://github.com/ojw1002/Snake-Game" target="_blank" title="Go To GitHub Project"><i class="fab fa-github" id="modal-social"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 <br><br>
 

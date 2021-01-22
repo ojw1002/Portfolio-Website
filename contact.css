@@ -18,13 +18,14 @@ html {
     border-radius:20px;
 }
 
-.fas {
+#smiley {
     color:yellow;
 }
 
 #contact-social {
     font-size:50px;
     text-align: center;
+    letter-spacing: 10px;
 }
 #contact-social:hover {
     transform:scale(1.1);

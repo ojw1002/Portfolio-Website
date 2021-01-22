@@ -38,18 +38,19 @@ body {
 
   /*icon colors for viewing and github*/
   .fab  {
-    color: darkviolet;
-    font-size: 40px;
+    color: black;
+    font-size:30px;
+   
   }
 
   .fas {
     color:black;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .far {
     color:black;
-    font-size: 2rem;
+    font-size: 30px;
   }
 
   .card {
@@ -66,10 +67,10 @@ body {
   }
 
   #card-img{
-    height:200px;
-    width:200px;
-    
+    height:150px;
+    width:150px;
   }
+
   .card-body {
     text-align:center;
     font-weight:600;
@@ -78,6 +79,10 @@ body {
   #card-img:hover {
     transform: scale(1.1);
     cursor:pointer;
+  }
+
+  #modal-social:hover {
+    transform:scale(1.1);
   }
 
   #footer-linkedin:hover{
@@ -94,4 +99,21 @@ body {
 
   #footer-yt:hover{
     transform:scale(1.1);
+  }
+
+  
+  #footer-linkedin{
+    font-size:40px;
+  }
+
+  #footer-git{
+    font-size:40px;
+  }
+
+  #footer-fb{
+    font-size:40px;
+  }
+
+  #footer-yt{
+    font-size:40px;
   }

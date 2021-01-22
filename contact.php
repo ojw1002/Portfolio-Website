@@ -68,7 +68,7 @@
     <div class="col">
     <div class="form-container">
       
-    <h2 class="form-head">Say Hi! <i class="fas fa-smile-beam"></i></h2>
+    <h2 class="form-head">Say Hi! <i class="fas fa-smile-beam" id="smiley"></i></h2>
 
     <form class="contact" action="contact.php" method="POST"><br>
 
@@ -103,11 +103,13 @@
     </div>
       
   <br><br>
+
   <div class="connect">
-    <a class="linkedin"><a title="Olivia Warner LinkedIn" href="https://www.linkedin.com/in/olivia--warner/" target="_blank"><i class="fab fa-linkedin" style="color:black" id="contact-social"></i></a>
-    <a class="github"><a title="Olivia Warner Github" href="https://github.com/oliviawarner" target="_blank"><i class="fab fa-github-square" style="color:black" id="contact-social"></i></a>
-    <a class="facebook"><a title="Olivia Warner Facebook" href="https://www.facebook.com/olivia.warner.54/" target="_blank"><i class="fab fa-facebook-square" style="color:black" id="contact-social"></i></a>
-   <a class="youtube"><a title="Olivia Warner Youtube" href="https://www.youtube.com/channel/UCHGgkmlgNKDgD93zCp_JgJA" target="_blank"><i class="fab fa-youtube-square" style="color:black" id="contact-social"></i></a>
+    <a class="email" title="Email Olivia Warner" href="mailto:ojw1002@sru.edu" target="_blank"><i class="fas fa-envelope-square" style="color:black" id="contact-social"></i>
+    <a class="linkedin" title="Olivia Warner LinkedIn" href="https://www.linkedin.com/in/olivia--warner/" target="_blank"><i class="fab fa-linkedin" style="color:black" id="contact-social"></i></a>
+    <a class="github" title="Olivia Warner Github" href="https://github.com/oliviawarner" target="_blank"><i class="fab fa-github-square" style="color:black" id="contact-social"></i></a>
+    <a class="facebook" title="Olivia Warner Facebook" href="https://www.facebook.com/olivia.warner.54/" target="_blank"><i class="fab fa-facebook-square" style="color:black" id="contact-social"></i></a>
+   <a class="youtube" title="Olivia Warner Youtube" href="https://www.youtube.com/channel/UCHGgkmlgNKDgD93zCp_JgJA" target="_blank"><i class="fab fa-youtube-square" style="color:black" id="contact-social"></i></a>
   </div>
   
   <br><br>

@@ -16,6 +16,10 @@
     transform: scale(1.1);
 }
 
+#about-social {
+    letter-spacing: 10px;
+}
+
 #about-head {
     font-family: 'Permanent Marker';
     letter-spacing: 5px;
