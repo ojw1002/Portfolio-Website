@@ -65,35 +65,15 @@
 
   <div class="row">
 
-    <div class="col">
+    
+    <div class="col-md">
       <div class="form-container">
-
-        <h2 class="form-head">Say Hi! <i class="fas fa-smile-beam" id="smiley"></i></h2>
-
-        <form class="contact" action="contact.php" method="POST"><br>
-
-          <div class="form-floating">
-            <input type="text" class="form-control" name="name" placeholder="Full Name"><br>
-          </div>
-
-          <div class="form-floating">
-            <input type="text" class="form-control" name="email" placeholder="E-mail"><br>
-          </div>
-
-          <div class="form-floating">
-            <input type="text" class="form-control" name="subject" placeholder="Subject"><br>
-          </div>
-
-          <div class="form-floating">
-            <textarea class="form-control" name="msg" placeholder="Message" rows="5"></textarea><br>
-          </div>
-
-          <button type="submit" name="submit" class="btn btn-dark">Send</button>
-        </form>
-      </div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdr8EOn7B2Mak9sUsfLQ-8GHz-Eim_zruvGhrcg6MTC-oPH5Q/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
     </div>
 
-    <div class="col">
+
+    <div class="col-md">
       <br><br>
       <h2 class="featurette-heading" id="connect-head" style="text-align: center;">CONNECT WITH ME</h2>
       <br>
@@ -119,24 +99,6 @@
     </div>
   </div>
 
-
-
-  <?php
-  if (isset($_POST['submit'])) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $msg = $_POST['msg'];
-
-    $mailTo = "ojw1002@sru.edu";
-    $headers = "From: " . $email;
-    $txt = "You have received an e-mail from" . $name . "\n\n" . $msg;
-
-
-    mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.html?mailsent");
-  }
-  ?>
 
 </body>
 

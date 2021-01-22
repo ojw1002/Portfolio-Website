@@ -10,12 +10,10 @@ body {
 }
 
 .form-container {
-  max-width: 500px;
-  margin: auto;
-  padding: 30px;
-  background: #9933cc;
-  border: 10px solid #f2f2f2;
+  width:100%; 
   border-radius: 20px;
+  padding:10px;
+  background-color: gainsboro;
 }
 
 #smiley {
