@@ -1,4 +1,10 @@
-/*Bootstrap styling for jumbotron title*/
+html{
+  height:100%;
+}
+
+body {
+  min-height:100%;
+}
 .jumbotron {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -47,15 +53,29 @@
   }
 
   .card {
-    padding:15px;
+    padding:10px;
+    max-width:350px;
   }
   
+  #col-space {
+    padding: 10px;
+  
+  }
+  .proj-img {
+    text-align:center;
+  }
+
+  #card-img{
+    height:200px;
+    width:200px;
+    
+  }
   .card-body {
     text-align:center;
     font-weight:600;
   }
 
-  #port-img:hover {
+  #card-img:hover {
     transform: scale(1.1);
     cursor:pointer;
   }
