@@ -1,51 +1,50 @@
 html {
-    height:100%;
-} 
-  body {
-    min-height:100%;
+  height: 100%;
+}
+body {
+  min-height: 100%;
 }
 
-.form-head{
-    color:white;
+.form-head {
+  color: white;
 }
 
 .form-container {
-    max-width: 500px;
-    margin: auto;
-    padding: 30px;
-    background: #9933CC;
-    border: 10px solid #f2f2f2;
-    border-radius:20px;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  background: #9933cc;
+  border: 10px solid #f2f2f2;
+  border-radius: 20px;
 }
 
 #smiley {
-    color:yellow;
+  color: yellow;
 }
 
 #contact-social {
-    font-size:50px;
-    text-align: center;
-    letter-spacing: 10px;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 10px;
 }
 #contact-social:hover {
-    transform:scale(1.1);
-   
+  transform: scale(1.1);
 }
 
-#connect-head{
-    font-family: 'Permanent Marker';
-    letter-spacing: 1px;
+#connect-head {
+  font-family: "Permanent Marker";
+  letter-spacing: 1px;
 }
 .connect {
-    text-align: center;
+  text-align: center;
 }
 
-#contact-pic{
-    height:250px;
-    width:250px;
-    border-radius:4px;
+#contact-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 4px;
 }
 
 .profile {
-    text-align:center;
+  text-align: center;
 }

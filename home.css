@@ -1,104 +1,103 @@
 html {
-    box-sizing: border-box;
-    width:100%;
-    height:100%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    width:100%;
-    height:100%;
+  width: 100%;
+  height: 100%;
 }
 
-
-
 .home_title {
-    text-align: center;
-    width:100%;
+  text-align: center;
+  width: 100%;
 }
 
 #name_title {
-    font-family: 'Permanent Marker';
-    font-size: 6rem;
+  font-family: "Permanent Marker";
+  font-size: 6rem;
 }
 
 /*arrow animation*/
 .fa-arrow-alt-circle-down {
-    animation: bounce 1s infinite alternate;
-    font-size: 5rem;
-    text-decoration:none;
+  animation: bounce 1s infinite alternate;
+  font-size: 5rem;
+  text-decoration: none;
 }
 
 @keyframes bounce {
-    from {
-        transform: translateY(0px);
-     }
-    to {
-        transform: translateY(-15px);
-     }
-    }
-    @-webkit-keyframes bounce {
-      from {
-        transform: translateY(0px);
-     }
-       to {
-        transform: translateY(-15px);
-    }
+  from {
+    transform: translateY(0px);
   }
-
-
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
 
 .top {
-    max-width: 600px;
-    width:100%;
-    box-sizing: border-box;
-    height: 30px;
-    background-color: lightgray;
-    margin: 0 auto;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  background-color: lightgray;
+  margin: 0 auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .menu {
-    position: relative;
-    top: 4px;
-    left: 6px;
-    display: inline-block;
+  position: relative;
+  top: 4px;
+  left: 6px;
+  display: inline-block;
 }
 
 #close {
-    color:red;
+  color: red;
 }
 
 .info {
-    background-color:black;
-    box-sizing: border-box;
-    max-width: 600px;
-    width:100%;
-    margin: 0 auto;
-    padding: 20px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: white;
+  background-color: black;
+  box-sizing: border-box;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
 }
 
 .cursor {
-    color:white;
+  color: white;
 }
 
 #blink {
-    animation: blink 1s infinite;
+  animation: blink 1s infinite;
 }
 
 @keyframes blink {
-    from, to { opacity: 0; }
-    
-    50% {opacity: 1;}
+  from,
+  to {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
 }
 
 .avatar {
-    text-align: center;
-    height:auto;
-    width:100%;
+  text-align: center;
+  height: auto;
+  width: 100%;
 }
-
-  

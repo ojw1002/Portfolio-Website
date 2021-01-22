@@ -1,71 +1,71 @@
 /*Basic style sheet */
 /*Applies to every page*/
-html,body{
-  height:100%;
+html,
+body {
+  height: 100%;
 }
 
 html {
-    font: 16px/1.4 'Open Sans', arial, sans-serif;
-    padding: 1px 15px 15px;
+  font: 16px/1.4 "Open Sans", arial, sans-serif;
+  padding: 1px 15px 15px;
 }
 
 body {
-    height:100%;
-    margin: 0;    
-    min-height: 75rem;
-    padding-top: 4.5rem;
+  height: 100%;
+  margin: 0;
+  min-height: 75rem;
+  padding-top: 4.5rem;
 }
 
 /*nav bar*/
 
 .navbar {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar ul li {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #name {
-    font-family: 'Permanent Marker';
-    font-size: 22px;
+  font-family: "Permanent Marker";
+  font-size: 22px;
 }
 
 /*Footer*/
 
 .foot-title {
-    color:white;
+  color: white;
 }
-  .foot-main-item {
-    padding: 1.25rem;
-    min-width: 12.5rem;
-  }
+.foot-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
 
-  /*Footer list*/
-  #footer-list {
-      list-style: none;
-      padding-left: 0; 
-  }
+/*Footer list*/
+#footer-list {
+  list-style: none;
+  padding-left: 0;
+}
 
-  /*Social*/
-  #footer-social-list {
-    list-style: none;
-    padding-left: 0;
+/*Social*/
+#footer-social-list {
+  list-style: none;
+  padding-left: 0;
+}
 
-  }
+.foot-social {
+  padding: 0 1.875rem 1.25rem;
+}
 
-  .foot-social {
-    padding: 0 1.875rem 1.25rem;
-  }
+#footer-social-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.25rem;
+}
 
-  #footer-social-list {
-    display: flex;
-    justify-content: center;
-    padding-top: 1.25rem;
-  }
-  
-  #footer-social-list li {
-    margin: 0.5rem;
-    font-size: 1.25rem;
-  }
+#footer-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}

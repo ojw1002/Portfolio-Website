@@ -1,119 +1,115 @@
-html{
-  height:100%;
+html {
+  height: 100%;
 }
 
 body {
-  min-height:100%;
+  min-height: 100%;
 }
 .jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-  }
-  
-  .jumbotron p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .jumbotron h1 {
-    font-weight: 300;
-  }
-  
-  .jumbotron .container {
-    max-width: 40rem;
-  }
+}
 
-  #port-head {
-    font-family: 'Permanent Marker';
-    letter-spacing: 5px;
-    
-  }
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
 
-  /*icon colors for viewing and github*/
-  .fab  {
-    color: black;
-    font-size:30px;
-   
-  }
+.jumbotron h1 {
+  font-weight: 300;
+}
 
-  .fas {
-    color:black;
-    font-size: 30px;
-  }
+.jumbotron .container {
+  max-width: 40rem;
+}
 
-  .far {
-    color:black;
-    font-size: 30px;
-  }
+#port-head {
+  font-family: "Permanent Marker";
+  letter-spacing: 5px;
+}
 
-  .card {
-    padding:10px;
-    max-width:350px;
-  }
-  
-  #col-space {
-    padding: 10px;
-  
-  }
-  .proj-img {
-    text-align:center;
-  }
+/*icon colors for viewing and github*/
+.fab {
+  color: black;
+  font-size: 30px;
+}
 
-  #card-img{
-    height:150px;
-    width:150px;
-  }
+.fas {
+  color: black;
+  font-size: 30px;
+}
 
-  .card-body {
-    text-align:center;
-    font-weight:600;
-  }
+.far {
+  color: black;
+  font-size: 30px;
+}
 
-  #card-img:hover {
-    transform: scale(1.1);
-    cursor:pointer;
-  }
+.card {
+  padding: 10px;
+  max-width: 350px;
+}
 
-  #modal-social:hover {
-    transform:scale(1.1);
-  }
+#col-space {
+  padding: 10px;
+}
+.proj-img {
+  text-align: center;
+}
 
-  #footer-linkedin:hover{
-    transform:scale(1.1);
-  }
+#card-img {
+  height: 150px;
+  width: 150px;
+}
 
-  #footer-git:hover{
-    transform:scale(1.1);
-  }
+.card-body {
+  text-align: center;
+  font-weight: 600;
+}
 
-  #footer-fb:hover{
-    transform:scale(1.1);
-  }
+#card-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
-  #footer-yt:hover{
-    transform:scale(1.1);
-  }
+#modal-social:hover {
+  transform: scale(1.1);
+}
 
-  
-  #footer-linkedin{
-    font-size:40px;
-  }
+#footer-linkedin:hover {
+  transform: scale(1.1);
+}
 
-  #footer-git{
-    font-size:40px;
-  }
+#footer-git:hover {
+  transform: scale(1.1);
+}
 
-  #footer-fb{
-    font-size:40px;
-  }
+#footer-fb:hover {
+  transform: scale(1.1);
+}
 
-  #footer-yt{
-    font-size:40px;
-  }
+#footer-yt:hover {
+  transform: scale(1.1);
+}
+
+#footer-linkedin {
+  font-size: 40px;
+}
+
+#footer-git {
+  font-size: 40px;
+}
+
+#footer-fb {
+  font-size: 40px;
+}
+
+#footer-yt {
+  font-size: 40px;
+}
